@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.netanelcohen.sensorssamplesapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/sensorsample"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@android:color/black"
+        android:id="@+id/name"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textAlignment="textStart"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/att1"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="textStart"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/att1"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/att2"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/att2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/att3"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/att3"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/att4"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Sensors Samples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView2"
+        android:textSize="45sp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp" />
+
+
+</RelativeLayout>
+
